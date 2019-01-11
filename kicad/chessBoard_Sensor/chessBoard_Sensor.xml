@@ -1,0 +1,3221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/jlnktech/workspace/kicad_projects/chessBoard_Sensor/chessBoard_Sensor.sch</source>
+    <date>Fri 04 Jan 2019 08:12:23 PM PST</date>
+    <tool>Eeschema 6.0.0-rc1-unknown-62e2fe8~66~ubuntu18.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Chess Sensor Board</title>
+        <company>JLNKTECH Consulting, LLC</company>
+        <rev>A</rev>
+        <date>2019-01-01</date>
+        <source>chessBoard_Sensor.sch</source>
+        <comment number="1" value="8471 Borealis Rd"/>
+        <comment number="2" value="San Diego, CA 92126"/>
+        <comment number="3" value="(858)761-2396"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Sheet1/" tstamps="/5C28166F/">
+      <title_block>
+        <title>Chess Sensor Board</title>
+        <company>JLNKTECH Consulting, LLC</company>
+        <rev>A</rev>
+        <date>2019-01-01</date>
+        <source>sheet1.sch</source>
+        <comment number="1" value="8471 Borealis Rd"/>
+        <comment number="2" value="San Diego, CA 92126"/>
+        <comment number="3" value="(858)761-2396"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/sheet5C2B8677/" tstamps="/5C2B867D/">
+      <title_block>
+        <title>Chess Sensor Board</title>
+        <company>JLNKTECH Consulting, LLC</company>
+        <rev>A</rev>
+        <date>2019-01-01</date>
+        <source>sheet2.sch</source>
+        <comment number="1" value="8471 Borealis Rd"/>
+        <comment number="2" value="San Diego, CA 92126"/>
+        <comment number="3" value="(858)761-2396"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/sheet5C2B878C/" tstamps="/5C2B8792/">
+      <title_block>
+        <title>Chess Sensor Board</title>
+        <company>JLNKTECH Consulting, LLC</company>
+        <rev>A</rev>
+        <date>2019-01-01</date>
+        <source>sheet3.sch</source>
+        <comment number="1" value="8471 Borealis Rd"/>
+        <comment number="2" value="San Diego, CA 92126"/>
+        <comment number="3" value="(858)761-2396"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/sheet5C2B88A6/" tstamps="/5C2B88AC/">
+      <title_block>
+        <title>Chess Sensor Board</title>
+        <company>JLNKTECH Consulting, LLC</company>
+        <rev>A</rev>
+        <date>2019-01-01</date>
+        <source>sheet4.sch</source>
+        <comment number="1" value="8471 Borealis Rd"/>
+        <comment number="2" value="San Diego, CA 92126"/>
+        <comment number="3" value="(858)761-2396"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/sheet5C2B89C0/" tstamps="/5C2B89C6/">
+      <title_block>
+        <title>Chess Sensor Board</title>
+        <company>JLNKTECH Consulting, LLC</company>
+        <rev>A</rev>
+        <date>2019-01-01</date>
+        <source>sheet5.sch</source>
+        <comment number="1" value="8471 Borealis Rd"/>
+        <comment number="2" value="San Diego, CA 92126"/>
+        <comment number="3" value="(858)761-2396"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/sheet5C2B8A6C/" tstamps="/5C2B8A72/">
+      <title_block>
+        <title>Chess Sensor Board</title>
+        <company>JLNKTECH Consulting, LLC</company>
+        <rev>A</rev>
+        <date>2019-01-01</date>
+        <source>sheet6.sch</source>
+        <comment number="1" value="8471 Borealis Rd"/>
+        <comment number="2" value="San Diego, CA 92126"/>
+        <comment number="3" value="(858)761-2396"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="8" name="/sheet5C2B8B4A/" tstamps="/5C2B8B50/">
+      <title_block>
+        <title>Chess Sensor Board</title>
+        <company>JLNKTECH Consulting, LLC</company>
+        <rev>A</rev>
+        <date>2019-01-01</date>
+        <source>sheet7.sch</source>
+        <comment number="1" value="8471 Borealis Rd"/>
+        <comment number="2" value="San Diego, CA 92126"/>
+        <comment number="3" value="(858)761-2396"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="9" name="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/">
+      <title_block>
+        <title>Chess Sensor Board</title>
+        <company>JLNKTECH Consulting, LLC</company>
+        <rev>A</rev>
+        <date>2019-01-01</date>
+        <source>sheet8.sch</source>
+        <comment number="1" value="8471 Borealis Rd"/>
+        <comment number="2" value="San Diego, CA 92126"/>
+        <comment number="3" value="(858)761-2396"/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U73">
+      <value>PCA9544APW</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>http://www.nxp.com/documents/data_sheet/PCA9544A.pdf</datasheet>
+      <libsource lib="Interface_Expansion" part="PCA9544APW" description="4-channel I2C-bus multiplexer with interrupt logic, TSSOP20 package"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C2C0E4E</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C31FDE6</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C32932B</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C329654</tstamp>
+    </comp>
+    <comp ref="C73">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C33B2AB</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>SW_DIP_x03</value>
+      <footprint>Button_Switch_SMD:SW_DIP_SPSTx03_Slide_6.7x9.18mm_W8.61mm_P2.54mm_LowProfile</footprint>
+      <libsource lib="Switch" part="SW_DIP_x03" description="3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C34BA7C</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C36B218</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C36B21E</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C36B224</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C370536</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C37053C</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C370542</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C374DA0</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C374DA6</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C374DAC</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C37AAC8</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C37AACE</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C37AAD4</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>HEADER_6</value>
+      <footprint>Connector_JST:JST_PH_S6B-PH-SM4-TB_1x06-1MP_P2.00mm_Horizontal</footprint>
+      <libsource lib="w_connectors" part="HEADER_6" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5C3014B1</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C28319A</tstamp>
+    </comp>
+    <comp ref="U9">
+      <value>ADC128D818</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/adc128d818.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADC128D818" description="12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16"/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9E6B</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9E7B</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9E90</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9EA1</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9EB7</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9EC1</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C29E7F7</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9EE8</tstamp>
+    </comp>
+    <comp ref="U5">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9EFE</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9F10</tstamp>
+    </comp>
+    <comp ref="U6">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9F23</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9F33</tstamp>
+    </comp>
+    <comp ref="U7">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B3E15</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B3E22</tstamp>
+    </comp>
+    <comp ref="U8">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9F6A</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9F77</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/Sheet1/" tstamps="/5C28166F/"/>
+      <tstamp>5C2B9F97</tstamp>
+    </comp>
+    <comp ref="U10">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9E65</tstamp>
+    </comp>
+    <comp ref="U18">
+      <value>ADC128D818</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/adc128d818.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADC128D818" description="12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16"/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9E70</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9E7D</tstamp>
+    </comp>
+    <comp ref="U11">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9E8F</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9E9C</tstamp>
+    </comp>
+    <comp ref="U12">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9EB3</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9EBF</tstamp>
+    </comp>
+    <comp ref="U13">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9ED8</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C29E804</tstamp>
+    </comp>
+    <comp ref="U14">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9F04</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9F0F</tstamp>
+    </comp>
+    <comp ref="U15">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9F22</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9F2F</tstamp>
+    </comp>
+    <comp ref="U16">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9F44</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9F58</tstamp>
+    </comp>
+    <comp ref="U17">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B9F68</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2B3E4E</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2BC930</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5C2B8677/" tstamps="/5C2B867D/"/>
+      <tstamp>5C2C7EA0</tstamp>
+    </comp>
+    <comp ref="U19">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9E64</tstamp>
+    </comp>
+    <comp ref="U27">
+      <value>ADC128D818</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/adc128d818.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADC128D818" description="12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16"/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9E6D</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C290999</tstamp>
+    </comp>
+    <comp ref="U20">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9E93</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9E9E</tstamp>
+    </comp>
+    <comp ref="U21">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9EB6</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9EC4</tstamp>
+    </comp>
+    <comp ref="U22">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9EDA</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9EE7</tstamp>
+    </comp>
+    <comp ref="U23">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9EFF</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9F0E</tstamp>
+    </comp>
+    <comp ref="U24">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9F21</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9F32</tstamp>
+    </comp>
+    <comp ref="U25">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9F48</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9F52</tstamp>
+    </comp>
+    <comp ref="U26">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9F6D</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9F76</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B878C/" tstamps="/5C2B8792/"/>
+      <tstamp>5C2B9F94</tstamp>
+    </comp>
+    <comp ref="U28">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9E66</tstamp>
+    </comp>
+    <comp ref="U36">
+      <value>ADC128D818</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/adc128d818.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADC128D818" description="12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16"/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9E71</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9E7F</tstamp>
+    </comp>
+    <comp ref="U29">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C298DBE</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9E9F</tstamp>
+    </comp>
+    <comp ref="U30">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9EB1</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9EC2</tstamp>
+    </comp>
+    <comp ref="U31">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9ED6</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9EE5</tstamp>
+    </comp>
+    <comp ref="U32">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9F02</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B3DCA</tstamp>
+    </comp>
+    <comp ref="U33">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9F27</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9F35</tstamp>
+    </comp>
+    <comp ref="U34">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9F4A</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9F57</tstamp>
+    </comp>
+    <comp ref="U35">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9F6B</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9F79</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2B9F91</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5C2B88A6/" tstamps="/5C2B88AC/"/>
+      <tstamp>5C2D1582</tstamp>
+    </comp>
+    <comp ref="U37">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9E67</tstamp>
+    </comp>
+    <comp ref="U45">
+      <value>ADC128D818</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/adc128d818.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADC128D818" description="12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16"/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9E6C</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9E7A</tstamp>
+    </comp>
+    <comp ref="U38">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9E8E</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9EA2</tstamp>
+    </comp>
+    <comp ref="U39">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9EB2</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9EC0</tstamp>
+    </comp>
+    <comp ref="U40">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9ED4</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9EE4</tstamp>
+    </comp>
+    <comp ref="U41">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9F01</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9F12</tstamp>
+    </comp>
+    <comp ref="U42">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9F24</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9F31</tstamp>
+    </comp>
+    <comp ref="U43">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9F49</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9F53</tstamp>
+    </comp>
+    <comp ref="U44">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B3E41</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9F7A</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B89C0/" tstamps="/5C2B89C6/"/>
+      <tstamp>5C2B9F92</tstamp>
+    </comp>
+    <comp ref="U46">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9E68</tstamp>
+    </comp>
+    <comp ref="U54">
+      <value>ADC128D818</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/adc128d818.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADC128D818" description="12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16"/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9E6E</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9E7E</tstamp>
+    </comp>
+    <comp ref="U47">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9E94</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C298DCB</tstamp>
+    </comp>
+    <comp ref="U48">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9EB4</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9EC5</tstamp>
+    </comp>
+    <comp ref="U49">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9ED7</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9EE6</tstamp>
+    </comp>
+    <comp ref="U50">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9F03</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9F0D</tstamp>
+    </comp>
+    <comp ref="U51">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9F25</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B3DF6</tstamp>
+    </comp>
+    <comp ref="U52">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9F46</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9F56</tstamp>
+    </comp>
+    <comp ref="U53">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9F6C</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9F7B</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2B9F93</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5C2B8A6C/" tstamps="/5C2B8A72/"/>
+      <tstamp>5C2D43C8</tstamp>
+    </comp>
+    <comp ref="U55">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9E69</tstamp>
+    </comp>
+    <comp ref="U63">
+      <value>ADC128D818</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/adc128d818.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADC128D818" description="12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16"/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2831A0</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9E79</tstamp>
+    </comp>
+    <comp ref="U56">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9E91</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9EA0</tstamp>
+    </comp>
+    <comp ref="U57">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9EB5</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9EC3</tstamp>
+    </comp>
+    <comp ref="U58">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9ED9</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9EE2</tstamp>
+    </comp>
+    <comp ref="U59">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9F00</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9F11</tstamp>
+    </comp>
+    <comp ref="U60">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B3DE9</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9F34</tstamp>
+    </comp>
+    <comp ref="U61">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9F45</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9F54</tstamp>
+    </comp>
+    <comp ref="U62">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9F67</tstamp>
+    </comp>
+    <comp ref="C62">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9F75</tstamp>
+    </comp>
+    <comp ref="C63">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8B4A/" tstamps="/5C2B8B50/"/>
+      <tstamp>5C2B9F95</tstamp>
+    </comp>
+    <comp ref="U64">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9E6A</tstamp>
+    </comp>
+    <comp ref="U72">
+      <value>ADC128D818</value>
+      <footprint>Package_SO:TSSOP-16_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/adc128d818.pdf</datasheet>
+      <libsource lib="Analog_ADC" part="ADC128D818" description="12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16"/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9E6F</tstamp>
+    </comp>
+    <comp ref="C64">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9E7C</tstamp>
+    </comp>
+    <comp ref="U65">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9E92</tstamp>
+    </comp>
+    <comp ref="C65">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9E9D</tstamp>
+    </comp>
+    <comp ref="U66">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C29C863</tstamp>
+    </comp>
+    <comp ref="C66">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C29C870</tstamp>
+    </comp>
+    <comp ref="U67">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9ED5</tstamp>
+    </comp>
+    <comp ref="C67">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9EE3</tstamp>
+    </comp>
+    <comp ref="U68">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B3DBD</tstamp>
+    </comp>
+    <comp ref="C68">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9F0C</tstamp>
+    </comp>
+    <comp ref="U69">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9F26</tstamp>
+    </comp>
+    <comp ref="C69">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9F30</tstamp>
+    </comp>
+    <comp ref="U70">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9F47</tstamp>
+    </comp>
+    <comp ref="C70">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9F55</tstamp>
+    </comp>
+    <comp ref="U71">
+      <value>DRV5053VAQDBZR</value>
+      <footprint>w_smd_trans:sot323</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/drv5053.pdf</datasheet>
+      <fields>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <libsource lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR" description="SENSOR LINEAR ANALOG SOT23-3"/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9F69</tstamp>
+    </comp>
+    <comp ref="C71">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9F78</tstamp>
+    </comp>
+    <comp ref="C72">
+      <value>0.1UF-0402-16V-10%</value>
+      <footprint>0402</footprint>
+      <fields>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <libsource lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%" description="0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field."/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2B9F96</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>10K, 5%, 402</value>
+      <footprint>Resistor_SMD:R_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/sheet5C2B8CB4/" tstamps="/5C2B8CBA/"/>
+      <tstamp>5C2D88AF</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Analog_ADC" part="ADC128D818">
+      <description>12-Bit, 8-Channel, ADC System Monitor With Temperature Sensor, I2C Interface, TSSOP-16</description>
+      <docs>http://www.ti.com/lit/ds/symlink/adc128d818.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADC128D818</field>
+        <field name="Footprint">Package_SO:TSSOP-16_4.4x5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VREF" type="input"/>
+        <pin num="2" name="SDA" type="BiDi"/>
+        <pin num="3" name="SCL" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="V+" type="power_in"/>
+        <pin num="6" name="~INT" type="output"/>
+        <pin num="7" name="A0" type="input"/>
+        <pin num="8" name="A1" type="input"/>
+        <pin num="9" name="IN7" type="input"/>
+        <pin num="10" name="IN6" type="input"/>
+        <pin num="11" name="IN5" type="input"/>
+        <pin num="12" name="IN4" type="input"/>
+        <pin num="13" name="IN3" type="input"/>
+        <pin num="14" name="IN2" type="input"/>
+        <pin num="15" name="IN1" type="input"/>
+        <pin num="16" name="IN0" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Interface_Expansion" part="PCA9544APW">
+      <description>4-channel I2C-bus multiplexer with interrupt logic, TSSOP20 package</description>
+      <docs>http://www.nxp.com/documents/data_sheet/PCA9544A.pdf</docs>
+      <footprints>
+        <fp>TSSOP*4.4x6.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9544APW</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="A2" type="input"/>
+        <pin num="4" name="~INT0" type="input"/>
+        <pin num="5" name="SD0" type="BiDi"/>
+        <pin num="6" name="SC0" type="BiDi"/>
+        <pin num="7" name="~INT1" type="input"/>
+        <pin num="8" name="SD1" type="BiDi"/>
+        <pin num="9" name="SC1" type="BiDi"/>
+        <pin num="10" name="VSS" type="power_in"/>
+        <pin num="11" name="~INT2" type="input"/>
+        <pin num="12" name="SD2" type="BiDi"/>
+        <pin num="13" name="SC2" type="BiDi"/>
+        <pin num="14" name="~INT3" type="input"/>
+        <pin num="15" name="SD3" type="BiDi"/>
+        <pin num="16" name="SC3" type="BiDi"/>
+        <pin num="17" name="~INT" type="openCol"/>
+        <pin num="18" name="SCL" type="BiDi"/>
+        <pin num="19" name="SDA" type="BiDi"/>
+        <pin num="20" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="SparkFun-Capacitors" part="0.1UF-0402-16V-10%">
+      <description>0.1uF ceramic capacitors A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.</description>
+      <footprints>
+        <fp>*0402*</fp>
+        <fp>*0603*</fp>
+        <fp>*0603*</fp>
+        <fp>*0603*</fp>
+        <fp>*CAP-PTH-SMALL-KIT*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">0.1UF-0402-16V-10%</field>
+        <field name="Footprint">0402</field>
+        <field name="Field4">CAP-12416</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Switch" part="SW_DIP_x03">
+      <description>3x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol</description>
+      <footprints>
+        <fp>SW?DIP?x3*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_DIP_x03</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="dk_Magnetic-Sensors-Linear-Compass-ICs" part="DRV5053VAQDBZR">
+      <description>SENSOR LINEAR ANALOG SOT23-3</description>
+      <docs>http://www.ti.com/lit/ds/symlink/drv5053.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DRV5053VAQDBZR</field>
+        <field name="Footprint">digikey-footprints:SOT-23-3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="Digi-Key_PN">296-38460-1-ND</field>
+        <field name="MPN">DRV5053VAQDBZR</field>
+        <field name="Category">Sensors, Transducers</field>
+        <field name="Family">Magnetic Sensors - Linear, Compass (ICs)</field>
+        <field name="DK_Datasheet_Link">http://www.ti.com/lit/ds/symlink/drv5053.pdf</field>
+        <field name="DK_Detail_Page">/product-detail/en/texas-instruments/DRV5053VAQDBZR/296-38460-1-ND/5022225</field>
+        <field name="Description">SENSOR LINEAR ANALOG SOT23-3</field>
+        <field name="Manufacturer">Texas Instruments</field>
+        <field name="Status">Active</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VOUT" type="output"/>
+        <pin num="3" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="w_connectors" part="HEADER_6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">HEADER_6</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Analog_ADC">
+      <uri>/usr/share/kicad/library/Analog_ADC.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/library/Device.lib</uri>
+    </library>
+    <library logical="Interface_Expansion">
+      <uri>/usr/share/kicad/library/Interface_Expansion.lib</uri>
+    </library>
+    <library logical="SparkFun-Capacitors">
+      <uri>/home/jlnktech/workspace/kicad_libraries/Libraries/SparkFun-Capacitors.lib</uri>
+    </library>
+    <library logical="Switch">
+      <uri>/usr/share/kicad/library/Switch.lib</uri>
+    </library>
+    <library logical="dk_Magnetic-Sensors-Linear-Compass-ICs">
+      <uri>/home/jlnktech/workspace/kicad_libraries/kicad_digikey-symbols/dk_Magnetic-Sensors-Linear-Compass-ICs.lib</uri>
+    </library>
+    <library logical="w_connectors">
+      <uri>/home/jlnktech/workspace/kicad_libraries/walters_libraries/w_connectors.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="U2" pin="1"/>
+      <node ref="C59" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="U59" pin="1"/>
+      <node ref="U3" pin="1"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="U20" pin="1"/>
+      <node ref="C60" pin="2"/>
+      <node ref="U60" pin="1"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="U6" pin="1"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="U56" pin="1"/>
+      <node ref="U63" pin="8"/>
+      <node ref="U63" pin="7"/>
+      <node ref="U63" pin="4"/>
+      <node ref="U52" pin="1"/>
+      <node ref="U55" pin="1"/>
+      <node ref="U9" pin="4"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U9" pin="7"/>
+      <node ref="U9" pin="8"/>
+      <node ref="U57" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U5" pin="1"/>
+      <node ref="U70" pin="1"/>
+      <node ref="U23" pin="1"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="U27" pin="8"/>
+      <node ref="U27" pin="7"/>
+      <node ref="U7" pin="1"/>
+      <node ref="C41" pin="2"/>
+      <node ref="U42" pin="1"/>
+      <node ref="C70" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="U21" pin="1"/>
+      <node ref="U58" pin="1"/>
+      <node ref="U40" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="U27" pin="4"/>
+      <node ref="C72" pin="2"/>
+      <node ref="C71" pin="2"/>
+      <node ref="U8" pin="1"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="U19" pin="1"/>
+      <node ref="U48" pin="1"/>
+      <node ref="C12" pin="2"/>
+      <node ref="U49" pin="1"/>
+      <node ref="C49" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="C63" pin="2"/>
+      <node ref="U47" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C62" pin="2"/>
+      <node ref="U13" pin="1"/>
+      <node ref="U10" pin="1"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C50" pin="2"/>
+      <node ref="U54" pin="7"/>
+      <node ref="U18" pin="4"/>
+      <node ref="U50" pin="1"/>
+      <node ref="U18" pin="7"/>
+      <node ref="U14" pin="1"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U11" pin="1"/>
+      <node ref="U15" pin="1"/>
+      <node ref="U46" pin="1"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U51" pin="1"/>
+      <node ref="U12" pin="1"/>
+      <node ref="U54" pin="4"/>
+      <node ref="C25" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="U26" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="U62" pin="1"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U53" pin="1"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C61" pin="2"/>
+      <node ref="U17" pin="1"/>
+      <node ref="C47" pin="2"/>
+      <node ref="U25" pin="1"/>
+      <node ref="C23" pin="2"/>
+      <node ref="U16" pin="1"/>
+      <node ref="U61" pin="1"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="C31" pin="2"/>
+      <node ref="SW1" pin="6"/>
+      <node ref="U65" pin="1"/>
+      <node ref="U28" pin="1"/>
+      <node ref="SW1" pin="5"/>
+      <node ref="SW1" pin="4"/>
+      <node ref="C69" pin="2"/>
+      <node ref="U69" pin="1"/>
+      <node ref="U30" pin="1"/>
+      <node ref="C68" pin="2"/>
+      <node ref="U73" pin="10"/>
+      <node ref="U67" pin="1"/>
+      <node ref="U36" pin="4"/>
+      <node ref="C29" pin="2"/>
+      <node ref="U31" pin="1"/>
+      <node ref="C66" pin="2"/>
+      <node ref="C73" pin="2"/>
+      <node ref="U64" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="C43" pin="2"/>
+      <node ref="U66" pin="1"/>
+      <node ref="U43" pin="1"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="U72" pin="4"/>
+      <node ref="U68" pin="1"/>
+      <node ref="U29" pin="1"/>
+      <node ref="C64" pin="2"/>
+      <node ref="U72" pin="7"/>
+      <node ref="J1" pin="3"/>
+      <node ref="U44" pin="1"/>
+      <node ref="C22" pin="2"/>
+      <node ref="U37" pin="1"/>
+      <node ref="U71" pin="1"/>
+      <node ref="C32" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="U32" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="U39" pin="1"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C33" pin="2"/>
+      <node ref="U45" pin="8"/>
+      <node ref="U45" pin="7"/>
+      <node ref="U22" pin="1"/>
+      <node ref="U45" pin="4"/>
+      <node ref="U33" pin="1"/>
+      <node ref="U35" pin="1"/>
+      <node ref="U34" pin="1"/>
+      <node ref="C67" pin="2"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C65" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="U41" pin="1"/>
+      <node ref="C30" pin="2"/>
+      <node ref="U24" pin="1"/>
+      <node ref="U38" pin="1"/>
+      <node ref="U36" pin="7"/>
+    </net>
+    <net code="2" name="Net-(R1-Pad2)">
+      <node ref="U73" pin="3"/>
+      <node ref="SW1" pin="3"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="3" name="Net-(R2-Pad2)">
+      <node ref="R2" pin="2"/>
+      <node ref="U73" pin="2"/>
+      <node ref="SW1" pin="2"/>
+    </net>
+    <net code="4" name="/Sheet1/SDA1">
+      <node ref="U18" pin="2"/>
+      <node ref="R5" pin="2"/>
+      <node ref="U9" pin="2"/>
+      <node ref="U73" pin="5"/>
+    </net>
+    <net code="5" name="/sheet5C2B878C/SDA2">
+      <node ref="U36" pin="2"/>
+      <node ref="U73" pin="8"/>
+      <node ref="R8" pin="2"/>
+      <node ref="U27" pin="2"/>
+    </net>
+    <net code="6" name="/sheet5C2B878C/INT2">
+      <node ref="U36" pin="6"/>
+      <node ref="U27" pin="6"/>
+      <node ref="R14" pin="2"/>
+      <node ref="U73" pin="7"/>
+    </net>
+    <net code="7" name="/sheet5C2B878C/SCL2">
+      <node ref="U27" pin="3"/>
+      <node ref="U36" pin="3"/>
+      <node ref="U73" pin="9"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="8" name="/sheet5C2B89C0/SCL3">
+      <node ref="U73" pin="13"/>
+      <node ref="U54" pin="3"/>
+      <node ref="U45" pin="3"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="9" name="/Sheet1/INT1">
+      <node ref="U9" pin="6"/>
+      <node ref="U73" pin="4"/>
+      <node ref="R11" pin="2"/>
+      <node ref="U18" pin="6"/>
+    </net>
+    <net code="10" name="/Sheet1/SCL1">
+      <node ref="R7" pin="2"/>
+      <node ref="U18" pin="3"/>
+      <node ref="U9" pin="3"/>
+      <node ref="U73" pin="6"/>
+    </net>
+    <net code="11" name="Net-(R3-Pad2)">
+      <node ref="U73" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="12" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+      <node ref="U73" pin="19"/>
+    </net>
+    <net code="13" name="Net-(J1-Pad5)">
+      <node ref="J1" pin="5"/>
+      <node ref="U73" pin="18"/>
+    </net>
+    <net code="14" name="Net-(J1-Pad6)">
+      <node ref="J1" pin="6"/>
+      <node ref="U73" pin="17"/>
+    </net>
+    <net code="15" name="/sheet5C2B8B4A/SDA4">
+      <node ref="R9" pin="1"/>
+      <node ref="U63" pin="2"/>
+      <node ref="U73" pin="15"/>
+      <node ref="U72" pin="2"/>
+    </net>
+    <net code="16" name="/sheet5C2B89C0/SDA3">
+      <node ref="U45" pin="2"/>
+      <node ref="U73" pin="12"/>
+      <node ref="U54" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="17" name="/sheet5C2B89C0/INT3">
+      <node ref="U54" pin="6"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U45" pin="6"/>
+      <node ref="U73" pin="11"/>
+    </net>
+    <net code="18" name="/sheet5C2B8B4A/INT4">
+      <node ref="U72" pin="6"/>
+      <node ref="U73" pin="14"/>
+      <node ref="U63" pin="6"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="19" name="/sheet5C2B8B4A/SCL4">
+      <node ref="U63" pin="3"/>
+      <node ref="U72" pin="3"/>
+      <node ref="U73" pin="16"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="20" name="+3V3">
+      <node ref="U39" pin="3"/>
+      <node ref="U71" pin="3"/>
+      <node ref="U37" pin="3"/>
+      <node ref="U45" pin="5"/>
+      <node ref="C37" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U38" pin="3"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U31" pin="3"/>
+      <node ref="C66" pin="1"/>
+      <node ref="U67" pin="3"/>
+      <node ref="C69" pin="1"/>
+      <node ref="U69" pin="3"/>
+      <node ref="C31" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="C30" pin="1"/>
+      <node ref="C68" pin="1"/>
+      <node ref="C67" pin="1"/>
+      <node ref="U64" pin="3"/>
+      <node ref="U43" pin="3"/>
+      <node ref="U66" pin="3"/>
+      <node ref="C43" pin="1"/>
+      <node ref="U44" pin="3"/>
+      <node ref="C65" pin="1"/>
+      <node ref="U65" pin="3"/>
+      <node ref="U68" pin="3"/>
+      <node ref="C64" pin="1"/>
+      <node ref="U72" pin="5"/>
+      <node ref="C44" pin="1"/>
+      <node ref="C45" pin="1"/>
+      <node ref="C61" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U61" pin="3"/>
+      <node ref="C52" pin="1"/>
+      <node ref="U56" pin="3"/>
+      <node ref="C56" pin="1"/>
+      <node ref="U53" pin="3"/>
+      <node ref="U62" pin="3"/>
+      <node ref="C53" pin="1"/>
+      <node ref="U51" pin="3"/>
+      <node ref="U48" pin="3"/>
+      <node ref="U46" pin="3"/>
+      <node ref="C51" pin="1"/>
+      <node ref="C48" pin="1"/>
+      <node ref="U54" pin="5"/>
+      <node ref="C50" pin="1"/>
+      <node ref="U50" pin="3"/>
+      <node ref="C63" pin="1"/>
+      <node ref="C62" pin="1"/>
+      <node ref="U47" pin="3"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C49" pin="1"/>
+      <node ref="U49" pin="3"/>
+      <node ref="C58" pin="1"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C72" pin="1"/>
+      <node ref="U42" pin="3"/>
+      <node ref="U58" pin="3"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C71" pin="1"/>
+      <node ref="C46" pin="1"/>
+      <node ref="C70" pin="1"/>
+      <node ref="U70" pin="3"/>
+      <node ref="C39" pin="1"/>
+      <node ref="U59" pin="3"/>
+      <node ref="C55" pin="1"/>
+      <node ref="C59" pin="1"/>
+      <node ref="U63" pin="5"/>
+      <node ref="U55" pin="3"/>
+      <node ref="U57" pin="3"/>
+      <node ref="U52" pin="3"/>
+      <node ref="U40" pin="3"/>
+      <node ref="C57" pin="1"/>
+      <node ref="C60" pin="1"/>
+      <node ref="U60" pin="3"/>
+      <node ref="U41" pin="3"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C27" pin="1"/>
+      <node ref="U25" pin="3"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U13" pin="3"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C26" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U20" pin="3"/>
+      <node ref="U21" pin="3"/>
+      <node ref="U19" pin="3"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="U26" pin="3"/>
+      <node ref="U8" pin="3"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U7" pin="3"/>
+      <node ref="C20" pin="1"/>
+      <node ref="U16" pin="3"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U17" pin="3"/>
+      <node ref="R16" pin="1"/>
+      <node ref="U33" pin="3"/>
+      <node ref="U4" pin="3"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="U14" pin="3"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U5" pin="3"/>
+      <node ref="C1" pin="1"/>
+      <node ref="U9" pin="5"/>
+      <node ref="U15" pin="3"/>
+      <node ref="C15" pin="1"/>
+      <node ref="U6" pin="3"/>
+      <node ref="U11" pin="3"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="U12" pin="3"/>
+      <node ref="U10" pin="3"/>
+      <node ref="U18" pin="5"/>
+      <node ref="C10" pin="1"/>
+      <node ref="J1" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="U35" pin="3"/>
+      <node ref="C35" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="U30" pin="3"/>
+      <node ref="U28" pin="3"/>
+      <node ref="R6" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="U36" pin="5"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R14" pin="1"/>
+      <node ref="C28" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="U32" pin="3"/>
+      <node ref="C32" pin="1"/>
+      <node ref="C29" pin="1"/>
+      <node ref="C73" pin="1"/>
+      <node ref="U27" pin="5"/>
+      <node ref="U29" pin="3"/>
+      <node ref="C36" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="U24" pin="3"/>
+      <node ref="U73" pin="20"/>
+      <node ref="C23" pin="1"/>
+      <node ref="U23" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U22" pin="3"/>
+      <node ref="C21" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C34" pin="1"/>
+      <node ref="U34" pin="3"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="21" name="Net-(U7-Pad2)">
+      <node ref="U9" pin="12"/>
+      <node ref="U7" pin="2"/>
+    </net>
+    <net code="22" name="Net-(U4-Pad2)">
+      <node ref="U9" pin="9"/>
+      <node ref="U4" pin="2"/>
+    </net>
+    <net code="23" name="Net-(U9-Pad1)">
+      <node ref="U9" pin="1"/>
+    </net>
+    <net code="24" name="Net-(U5-Pad2)">
+      <node ref="U9" pin="16"/>
+      <node ref="U5" pin="2"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad2)">
+      <node ref="U9" pin="15"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="26" name="Net-(U6-Pad2)">
+      <node ref="U6" pin="2"/>
+      <node ref="U9" pin="14"/>
+    </net>
+    <net code="27" name="Net-(U2-Pad2)">
+      <node ref="U2" pin="2"/>
+      <node ref="U9" pin="13"/>
+    </net>
+    <net code="28" name="Net-(U3-Pad2)">
+      <node ref="U9" pin="11"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="29" name="Net-(U8-Pad2)">
+      <node ref="U8" pin="2"/>
+      <node ref="U9" pin="10"/>
+    </net>
+    <net code="30" name="Net-(U14-Pad2)">
+      <node ref="U14" pin="2"/>
+      <node ref="U18" pin="16"/>
+    </net>
+    <net code="31" name="Net-(R16-Pad2)">
+      <node ref="U18" pin="8"/>
+      <node ref="R16" pin="2"/>
+    </net>
+    <net code="32" name="Net-(U16-Pad2)">
+      <node ref="U18" pin="12"/>
+      <node ref="U16" pin="2"/>
+    </net>
+    <net code="33" name="Net-(U13-Pad2)">
+      <node ref="U13" pin="2"/>
+      <node ref="U18" pin="9"/>
+    </net>
+    <net code="34" name="Net-(U18-Pad1)">
+      <node ref="U18" pin="1"/>
+    </net>
+    <net code="35" name="Net-(U10-Pad2)">
+      <node ref="U10" pin="2"/>
+      <node ref="U18" pin="15"/>
+    </net>
+    <net code="36" name="Net-(U15-Pad2)">
+      <node ref="U15" pin="2"/>
+      <node ref="U18" pin="14"/>
+    </net>
+    <net code="37" name="Net-(U11-Pad2)">
+      <node ref="U11" pin="2"/>
+      <node ref="U18" pin="13"/>
+    </net>
+    <net code="38" name="Net-(U12-Pad2)">
+      <node ref="U18" pin="11"/>
+      <node ref="U12" pin="2"/>
+    </net>
+    <net code="39" name="Net-(U17-Pad2)">
+      <node ref="U17" pin="2"/>
+      <node ref="U18" pin="10"/>
+    </net>
+    <net code="40" name="Net-(U23-Pad2)">
+      <node ref="U23" pin="2"/>
+      <node ref="U27" pin="16"/>
+    </net>
+    <net code="41" name="Net-(U25-Pad2)">
+      <node ref="U25" pin="2"/>
+      <node ref="U27" pin="12"/>
+    </net>
+    <net code="42" name="Net-(U22-Pad2)">
+      <node ref="U22" pin="2"/>
+      <node ref="U27" pin="9"/>
+    </net>
+    <net code="43" name="Net-(U27-Pad1)">
+      <node ref="U27" pin="1"/>
+    </net>
+    <net code="44" name="Net-(U19-Pad2)">
+      <node ref="U19" pin="2"/>
+      <node ref="U27" pin="15"/>
+    </net>
+    <net code="45" name="Net-(U24-Pad2)">
+      <node ref="U27" pin="14"/>
+      <node ref="U24" pin="2"/>
+    </net>
+    <net code="46" name="Net-(U20-Pad2)">
+      <node ref="U27" pin="13"/>
+      <node ref="U20" pin="2"/>
+    </net>
+    <net code="47" name="Net-(U21-Pad2)">
+      <node ref="U21" pin="2"/>
+      <node ref="U27" pin="11"/>
+    </net>
+    <net code="48" name="Net-(U26-Pad2)">
+      <node ref="U27" pin="10"/>
+      <node ref="U26" pin="2"/>
+    </net>
+    <net code="49" name="Net-(U32-Pad2)">
+      <node ref="U32" pin="2"/>
+      <node ref="U36" pin="16"/>
+    </net>
+    <net code="50" name="Net-(U34-Pad2)">
+      <node ref="U36" pin="12"/>
+      <node ref="U34" pin="2"/>
+    </net>
+    <net code="51" name="Net-(U36-Pad1)">
+      <node ref="U36" pin="1"/>
+    </net>
+    <net code="52" name="Net-(U31-Pad2)">
+      <node ref="U36" pin="9"/>
+      <node ref="U31" pin="2"/>
+    </net>
+    <net code="53" name="Net-(R17-Pad2)">
+      <node ref="U36" pin="8"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="54" name="Net-(U28-Pad2)">
+      <node ref="U36" pin="15"/>
+      <node ref="U28" pin="2"/>
+    </net>
+    <net code="55" name="Net-(U33-Pad2)">
+      <node ref="U36" pin="14"/>
+      <node ref="U33" pin="2"/>
+    </net>
+    <net code="56" name="Net-(U29-Pad2)">
+      <node ref="U36" pin="13"/>
+      <node ref="U29" pin="2"/>
+    </net>
+    <net code="57" name="Net-(U30-Pad2)">
+      <node ref="U30" pin="2"/>
+      <node ref="U36" pin="11"/>
+    </net>
+    <net code="58" name="Net-(U35-Pad2)">
+      <node ref="U36" pin="10"/>
+      <node ref="U35" pin="2"/>
+    </net>
+    <net code="59" name="Net-(U41-Pad2)">
+      <node ref="U45" pin="16"/>
+      <node ref="U41" pin="2"/>
+    </net>
+    <net code="60" name="Net-(U43-Pad2)">
+      <node ref="U43" pin="2"/>
+      <node ref="U45" pin="12"/>
+    </net>
+    <net code="61" name="Net-(U40-Pad2)">
+      <node ref="U45" pin="9"/>
+      <node ref="U40" pin="2"/>
+    </net>
+    <net code="62" name="Net-(U45-Pad1)">
+      <node ref="U45" pin="1"/>
+    </net>
+    <net code="63" name="Net-(U37-Pad2)">
+      <node ref="U45" pin="15"/>
+      <node ref="U37" pin="2"/>
+    </net>
+    <net code="64" name="Net-(U42-Pad2)">
+      <node ref="U45" pin="14"/>
+      <node ref="U42" pin="2"/>
+    </net>
+    <net code="65" name="Net-(U38-Pad2)">
+      <node ref="U45" pin="13"/>
+      <node ref="U38" pin="2"/>
+    </net>
+    <net code="66" name="Net-(U39-Pad2)">
+      <node ref="U45" pin="11"/>
+      <node ref="U39" pin="2"/>
+    </net>
+    <net code="67" name="Net-(U44-Pad2)">
+      <node ref="U44" pin="2"/>
+      <node ref="U45" pin="10"/>
+    </net>
+    <net code="68" name="Net-(U50-Pad2)">
+      <node ref="U54" pin="16"/>
+      <node ref="U50" pin="2"/>
+    </net>
+    <net code="69" name="Net-(U46-Pad2)">
+      <node ref="U46" pin="2"/>
+      <node ref="U54" pin="15"/>
+    </net>
+    <net code="70" name="Net-(U52-Pad2)">
+      <node ref="U52" pin="2"/>
+      <node ref="U54" pin="12"/>
+    </net>
+    <net code="71" name="Net-(U54-Pad1)">
+      <node ref="U54" pin="1"/>
+    </net>
+    <net code="72" name="Net-(R18-Pad2)">
+      <node ref="R18" pin="2"/>
+      <node ref="U54" pin="8"/>
+    </net>
+    <net code="73" name="Net-(U51-Pad2)">
+      <node ref="U54" pin="14"/>
+      <node ref="U51" pin="2"/>
+    </net>
+    <net code="74" name="Net-(U47-Pad2)">
+      <node ref="U54" pin="13"/>
+      <node ref="U47" pin="2"/>
+    </net>
+    <net code="75" name="Net-(U48-Pad2)">
+      <node ref="U48" pin="2"/>
+      <node ref="U54" pin="11"/>
+    </net>
+    <net code="76" name="Net-(U53-Pad2)">
+      <node ref="U53" pin="2"/>
+      <node ref="U54" pin="10"/>
+    </net>
+    <net code="77" name="Net-(U49-Pad2)">
+      <node ref="U49" pin="2"/>
+      <node ref="U54" pin="9"/>
+    </net>
+    <net code="78" name="Net-(U61-Pad2)">
+      <node ref="U61" pin="2"/>
+      <node ref="U63" pin="12"/>
+    </net>
+    <net code="79" name="Net-(U58-Pad2)">
+      <node ref="U58" pin="2"/>
+      <node ref="U63" pin="9"/>
+    </net>
+    <net code="80" name="Net-(U63-Pad1)">
+      <node ref="U63" pin="1"/>
+    </net>
+    <net code="81" name="Net-(U59-Pad2)">
+      <node ref="U59" pin="2"/>
+      <node ref="U63" pin="16"/>
+    </net>
+    <net code="82" name="Net-(U55-Pad2)">
+      <node ref="U63" pin="15"/>
+      <node ref="U55" pin="2"/>
+    </net>
+    <net code="83" name="Net-(U60-Pad2)">
+      <node ref="U63" pin="14"/>
+      <node ref="U60" pin="2"/>
+    </net>
+    <net code="84" name="Net-(U56-Pad2)">
+      <node ref="U56" pin="2"/>
+      <node ref="U63" pin="13"/>
+    </net>
+    <net code="85" name="Net-(U57-Pad2)">
+      <node ref="U57" pin="2"/>
+      <node ref="U63" pin="11"/>
+    </net>
+    <net code="86" name="Net-(U62-Pad2)">
+      <node ref="U63" pin="10"/>
+      <node ref="U62" pin="2"/>
+    </net>
+    <net code="87" name="Net-(U68-Pad2)">
+      <node ref="U72" pin="16"/>
+      <node ref="U68" pin="2"/>
+    </net>
+    <net code="88" name="Net-(U70-Pad2)">
+      <node ref="U72" pin="12"/>
+      <node ref="U70" pin="2"/>
+    </net>
+    <net code="89" name="Net-(U67-Pad2)">
+      <node ref="U67" pin="2"/>
+      <node ref="U72" pin="9"/>
+    </net>
+    <net code="90" name="Net-(U72-Pad1)">
+      <node ref="U72" pin="1"/>
+    </net>
+    <net code="91" name="Net-(R19-Pad2)">
+      <node ref="R19" pin="2"/>
+      <node ref="U72" pin="8"/>
+    </net>
+    <net code="92" name="Net-(U64-Pad2)">
+      <node ref="U72" pin="15"/>
+      <node ref="U64" pin="2"/>
+    </net>
+    <net code="93" name="Net-(U69-Pad2)">
+      <node ref="U72" pin="14"/>
+      <node ref="U69" pin="2"/>
+    </net>
+    <net code="94" name="Net-(U65-Pad2)">
+      <node ref="U72" pin="13"/>
+      <node ref="U65" pin="2"/>
+    </net>
+    <net code="95" name="Net-(U66-Pad2)">
+      <node ref="U72" pin="11"/>
+      <node ref="U66" pin="2"/>
+    </net>
+    <net code="96" name="Net-(U71-Pad2)">
+      <node ref="U71" pin="2"/>
+      <node ref="U72" pin="10"/>
+    </net>
+  </nets>
+</export>
